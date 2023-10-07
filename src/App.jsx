@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import Gallery from "./pages/Gallery/Gallery";
 import VideoTour from "./pages/VideoTour/VideoTour";
 import Contact from "./pages/Contact/Contact";
-import ErrorPage from './pages/ErrorPage/ErrorPage'
+import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import GetInTouch from "./component/GetInTouch/GetInTouch";
 
 function App() {
@@ -16,9 +16,21 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/solus-real-estate/" element={<Home />} />
-          <Route exact path="/gallery" element={<Gallery />} />
-          <Route exact path="/videroTour" element={<VideoTour />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route
+            exact
+            path="/solus-real-estate/gallery"
+            element={<Gallery />}
+          />
+          <Route
+            exact
+            path="/solus-real-estate/videroTour"
+            element={<VideoTour />}
+          />
+          <Route
+            exact
+            path="/solus-real-estate/contact"
+            element={<Contact />}
+          />
           <Route exact path="*" element={<ErrorPage />} />
         </Routes>
         <GetInTouch />
