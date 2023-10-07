@@ -55,7 +55,7 @@ const BannerCarousel = () => {
             <p className="subHeading">3 CAR PARKING 2500 SQ FT</p>
           </div>
 
-            <NavLink to='/contact' className="btn">SCHEDULE A SHOWING</NavLink>
+            <NavLink to='/solus-real-estate/contact' className="btn">SCHEDULE A SHOWING</NavLink>
         </div>
       </div>
 

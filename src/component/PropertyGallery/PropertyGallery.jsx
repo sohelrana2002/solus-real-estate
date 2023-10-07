@@ -24,7 +24,7 @@ const PropertyGallery = () => {
           }
         </div>
         <div className="gallery__button">
-        <NavLink to="/gallery" className="btn">
+        <NavLink to="/solus-real-estate/gallery" className="btn">
             see more
           </NavLink>
         </div>

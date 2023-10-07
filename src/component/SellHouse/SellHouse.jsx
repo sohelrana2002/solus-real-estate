@@ -16,12 +16,12 @@ const SellHouse = () => {
         </p>
 
         <div className="sellhouse__button">
-          <NavLink to="/contact" className="btn">
+          <NavLink to="/solus-real-estate/contact" className="btn">
             <BsFillHouseFill />
             GET DIRECTIONS
           </NavLink>
 
-          <NavLink to="/contact" className="btn">
+          <NavLink to="/solus-real-estate/contact" className="btn">
             <BiSolidUser />
             CONTACT AGENT
           </NavLink>

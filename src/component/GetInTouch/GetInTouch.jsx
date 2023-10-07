@@ -12,7 +12,7 @@ const GetInTouch = () => {
           <p className="sub__heading">
             Get in touch with us if you would like to schedule a showing.
           </p>
-          <NavLink to='/contact' className="btn"><BsFillCalendarDayFill />SCHEDULE A SHOWING</NavLink>
+          <NavLink to='/solus-real-estate/contact' className="btn"><BsFillCalendarDayFill />SCHEDULE A SHOWING</NavLink>
         </div>
       </div>
     </section>

@@ -43,7 +43,7 @@ const Location = () => {
             <MdEmail /> contact@your-site.com
           </span>
 
-          <NavLink to="/contact" className="btn">
+          <NavLink to="/solus-real-estate/contact" className="btn">
             <FaLocationArrow />
             GET DIRECTIONS
           </NavLink>
