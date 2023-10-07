@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav__container">
           <div className="logo-section">
-            <NavLink to="/" className="logo">
+            <NavLink to="/solus-real-estate/" className="logo">
               Solus Real Estate
             </NavLink>
           </div>
