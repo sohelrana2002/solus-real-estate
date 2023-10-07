@@ -1,8 +1,17 @@
-# React + Vite
+# solus-real-estate
+### Project Name: Solus Real Estate
+#### [Live Project](https://sohelrana2002.github.io/solus-real-estate/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Details
+#### This project is about Solus Real Estate application. Complex logic handled by React js
 
-Currently, two official plugins are available:
+### Project Material(React JS)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* React Router
+* Reusable component
+* Image gallery swiper
+* large image enroll swiper
+* Embed video mode
+* EmailJS
+* Pure CSS
+* And many more
