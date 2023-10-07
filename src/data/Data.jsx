@@ -17,22 +17,22 @@ export const navData = [
     {
         id: 1,
         title: "home",
-        path: "/"
+        path: "/solus-real-estate/"
     },
     {
         id: 2,
         title: "gallery",
-        path: "/gallery"
+        path: "/solus-real-estate/gallery"
     },
     {
         id: 3,
         title: "video tour",
-        path: "/videroTour"
+        path: "/solus-real-estate/videroTour"
     },
     {
         id: 4,
         title: "contact agent",
-        path: "/contact"
+        path: "/solus-real-estate/contact"
     }
 ]
 
