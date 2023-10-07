@@ -1,0 +1,50 @@
+.getintouch__bg {
+    width: 100% ;
+    background-image: url('../../../public/getintouchBackground.jpg');
+    margin-top: 0;
+    background-position: center;
+    background-size: cover;
+    /* height: 200px; */
+    background-repeat: no-repeat;
+}
+.getintouch__container{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-button);
+    opacity: .91;
+    padding: 10rem 0;
+}
+.touch__sub__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.touch__sub__container > .heading{
+    color: var(--color-white);
+}
+.touch__sub__container > .sub__heading{
+    color: var(--section-bg);
+}
+.touch__sub__container > .btn{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    background: transparent;
+    border: 2px solid var(--color-white);
+    font-size: 1.7rem;
+}
+.touch__sub__container > .btn:hover{
+    background: transparent;
+    opacity: .8;
+}
+
+
+
+/* =========MEDIA QUERY(SMALL SCREEN)========== */
+@media screen and (max-width: 700px) {
+    .getintouch__container{
+        padding: 7rem 0;
+    }
+  }

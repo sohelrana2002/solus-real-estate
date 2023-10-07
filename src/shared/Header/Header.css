@@ -1,0 +1,16 @@
+.header__container{
+    padding: 20rem 0;
+    border-bottom: 5px solid var(--color-subHeading);
+    position: relative;
+}
+.header__content{
+    position: absolute;
+    bottom: -4px;
+    left: 10%;
+    background: var(--color-white);
+    padding: 3rem 5rem;
+    border-radius: .7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}

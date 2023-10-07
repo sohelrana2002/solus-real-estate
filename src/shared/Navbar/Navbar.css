@@ -1,0 +1,121 @@
+.nav{
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+    z-index: 9999;
+}
+.nav.fixed{
+    background: var(--color-softGray);
+    transition: 1s ease-in;
+}
+.nav__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    color: black;
+}
+.logo{
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.nav__menu > li > a{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.nav__menu > li > a.active__nav {
+    position: relative;
+    opacity: 0.7;
+    transition: var(--transition);
+}
+.nav__menu > li > a.active__nav::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: var(--color-white);
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+ }
+
+
+.menu__icon{
+    width: 35px;
+    height: 35px;
+    background: var(--color-white);
+    border-radius: 5px;
+    display: none;
+    place-items: center;
+    font-size: 2.5rem;
+}
+
+
+
+
+/* =========MEDIA QUERY(MEDIAM SCREEN)========== */
+@media screen and (max-width: 800px) {
+    .menu__icon{
+        display: grid;
+    }
+    .nav__menu{
+        position: fixed;
+        flex-direction: column;
+        background: var(--color-softGray);
+        right: -100%;
+        top: 7rem;
+        height: 70%;
+        gap: 4rem;
+        align-items: start;
+        justify-content: center;
+        padding: 0rem 8rem;
+        border-radius: 0 0 0 .5rem;
+        z-index: 99;
+        transition: var(--transition);
+    }
+    .nav__menu.show{
+        right: 0;
+    }
+    .nav__menu > li {
+        width: 100%;
+        padding: 0 5rem .5rem .5rem;
+        border-bottom: 2px solid var(--color-soft);
+    }
+    .nav__menu > li > a.active__nav {
+        opacity: 1;
+    }
+    .nav__menu > li > a.active__nav::after {
+        display: none;
+     }
+  }
+  
+  
+  /* =========MEDIA QUERY(SMALL SCREEN)========== */
+  @media screen and (max-width: 547px) {
+    .nav__menu{
+        padding: 5rem 6rem;
+        border-radius: 0 0 0 .3rem;
+    }
+    .nav__menu > li {
+        padding: 0 2rem .5rem .5rem;
+    }
+  }

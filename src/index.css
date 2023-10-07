@@ -1,0 +1,107 @@
+/* =========GOOGLE FONT (OSWALD)======= */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* =====GOOGLE FONT(LATO)======= */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+:root{
+
+
+  --color-white: #FFFFFF;
+  --color-heading: #202427;
+  --color-subHeading: #666666;
+  --section-bg: #F0F0F0;
+  --color-gray: #9B9B9B;
+  --color-soft: #9C9C9C;
+  --color-softGray: #414141;
+  --color-button: #41b574;
+  --transition: all .3s ease;
+}
+
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+}
+.container{
+  width: 82%;
+  margin: 0 auto;
+}
+section{
+  margin-top: 7rem;
+}
+
+.heading{
+  font-size: 3.2rem;
+  color: var(--color-heading);
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.sub__heading{
+  font-size: 1.7rem;
+  color: var(--color-subHeading);
+  font-weight: 200;
+}
+.btn{
+  display: block;
+  width: max-content;
+  padding: 1.6rem 2.5rem;
+  background: var(--color-button);
+  border-radius: .2rem;
+  color: var(--color-white);
+  transition: var(--transition);
+  text-transform: uppercase;
+}
+.btn:hover{
+  background: var(--color-heading);
+}
+
+
+
+
+
+/* =========MEDIA QUERY(MEDIAM SCREEN)========== */
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 58%;
+  }
+  .container{
+    width: 85%;
+  }
+  .heading{
+    font-size: 2.8rem;
+  }
+}
+
+
+/* =========MEDIA QUERY(SMALL SCREEN)========== */
+@media screen and (max-width: 700px) {
+  html{
+    font-size: 54%;
+  }
+  .container{
+    width: 90%;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .sub__heading{
+    font-size: 1.6rem;
+  }
+}

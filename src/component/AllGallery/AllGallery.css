@@ -1,0 +1,25 @@
+.allgallery__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    padding-bottom: 7rem;
+}
+
+
+
+/* =========MEDIA QUERY(MEDIAM SCREEN)========== */
+@media screen and (max-width: 1024px) {
+    .allgallery__container{
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 7rem;
+    }
+  }
+  
+  
+  /* =========MEDIA QUERY(SMALL SCREEN)========== */
+  @media screen and (max-width: 700px) {
+    .allgallery__container{
+        grid-template-columns: 1fr;
+        padding-bottom: 5rem;
+    }
+  }
